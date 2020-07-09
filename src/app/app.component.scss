@@ -1,0 +1,823 @@
+.container {
+  max-width: 1210px;
+}
+
+img {
+  width: 100%;
+}
+
+.footer ul li img, .setting, .menu, .check {
+  max-width: 20px;
+  margin-right: 1.2rem;
+}
+
+.mainBody .speaker {
+  display: inline-block;
+  max-width: 120px;
+  border-radius: 50%;
+}
+
+.mainBody .smallText {
+  display: inline-block;
+  max-width: 254px;
+  line-height: 2;
+  vertical-align: middle;
+  margin-left: 1rem;
+
+}
+
+.yellowText {
+  color: #F7A739;
+}
+
+.purpleText {
+  color: #6b70ad;
+}
+
+.price-sec {
+  width: 100%;
+  position: relative;
+}
+
+.price-sec h2 {
+  color: #444;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+
+.lft-filter {
+  background: #fff;
+  box-shadow: 0px 6px 14px #50569E29;
+  padding: 20px 15px;
+  width: 100%;
+  margin-bottom: 30px;
+
+}
+
+.lft-filter h5 {
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+
+
+.lft-filter .filter-area i {
+  font-size: 30px;
+  font-weight: 800;
+  margin-right: 5px;
+
+}
+
+
+.lft-filter .filter-area {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.lft-filter .filter-area .colla-btn {
+  background: #fff;
+  width: 100px;
+  float: right;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: -20px;
+  outline: none;
+}
+
+
+.lft-filter .searchbar {
+  height: 50px;
+  background-color: #f6f6f6;
+  padding: 5px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lft-filter .searchbar .search_input {
+  padding: 0 10px;
+  caret-color: #42210e;
+  transition: width 0.4s linear;
+  width: 80%;
+  color: #333;
+  border: 0;
+  outline: 0;
+  background: none;
+  line-height: 35px;
+}
+
+.lft-filter .form-group {
+  margin-bottom: 0px;
+
+}
+
+.lft-filter .searchbar .search_icon {
+  height: 35px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #333;
+  text-decoration: none;
+}
+
+.lft-filter .ins-txt {
+  font-size: 15px;
+  color: #666;
+  padding-top: 5px;
+}
+
+.lft-filter .custome-chk {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.lft-filter .custome-chk input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.lft-filter .checkmark {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: transparent;
+  border: 1px #959595 solid;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lft-filter .custome-chk input:checked~.checkmark {
+  background-color: #52589f;
+  border: 1px #52589f solid;
+}
+
+.lft-filter .custome-chk input:checked~.checkmark:after {
+  display: block;
+}
+
+.lft-filter .custome-chk .checkmark:after {
+  left: 5px;
+  top: -5px;
+  width: 10px;
+  height: 21px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.lft-filter .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+
+}
+
+.lft-filter .entry {
+  background-color: #f6f6f6;
+  height: 50px;
+}
+
+.lft-filter .form-group select {
+  border-radius: 2px;
+  height: 48px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 10px;
+  background: url('../assets/img/dropdown.png') no-repeat;
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  color: #342e37;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.form-group select option {
+  padding: 10px 0;
+
+}
+
+.space-bod {
+  width: 100%;
+  border-bottom: 1px #ddd solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+
+}
+
+
+.date-sapce {
+  padding: 0px;
+  font-size: 14px;
+}
+
+a.expla {
+  position: relative;
+
+}
+
+a.expla i {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  border: 1px #ccc solid;
+  line-height: 20px;
+  padding-left: 7px;
+  margin-left: 10px;
+}
+
+
+.rgt-filter {
+  background: #fff;
+  box-shadow: 0px 6px 14px #50569E29;
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 8px;
+
+}
+
+.rgt-filter .table .thead-light th {
+  color: #333;
+  background-color: #e9ecef;
+  border-color: none;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.rgt-filter .table .thead-light th i {
+  font-size: 20px;
+
+}
+
+.text-red {
+  color: #E91733;
+}
+
+.text-green {
+  color: #0E8201;
+}
+
+.text-yellow {
+  color: #FE9C1D;
+}
+
+.hover-icon {
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px #ccc solid;
+  line-height: 18px;
+  padding-left: 7px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.hover-icon .hover-value {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: -100px;
+  top: 20px;
+  color: #fff;
+  min-width: 200px;
+  padding: 10px;
+  z-index: 999;
+  border-radius: 8px;
+  visibility: hidden;
+
+
+}
+
+.hover-icon:hover .hover-value {
+  visibility: visible;
+}
+
+.hover-icon .hover-value p {
+  margin: 0px;
+  font-size: 13px;
+  padding-bottom: 7px;
+
+
+}
+
+.net-bod {
+  width: 100%;
+  height: 5px;
+  border-bottom: 1px #666 solid;
+  margin-bottom: 5px;
+
+}
+
+.hover-icon .hover-value p span {
+  float: right;
+
+}
+
+a.downicon {
+  color: #666;
+  font-size: 22px;
+}
+
+.table thead {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: 8px;
+  line-height: 1.25;
+  color: #fff;
+  background-color: #666;
+  border: 1px solid #dee2e6;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.page-link:hover {
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+  background-color: #111;
+  border-color: #111;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #111;
+  border-color: #111;
+}
+
+.main-wrapnew .col-md-3 {
+  display: none;
+
+}
+
+.main-wrapnew .col-md-9 {
+
+  width: 100%;
+  flex: initial;
+  max-width: 100%;
+
+}
+
+.click-toogle {
+  cursor: pointer;
+  font-size: 22px;
+  background-color: #50569e;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  line-height: 32px;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: none;
+  margin-left: 15px;
+}
+
+
+.main-wrapnew .click-toogle {
+  display: block;
+}
+
+
+.top-search .searchbar {
+  height: 45px;
+  background-color: #f6f6f6;
+  padding: 5px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.top-search .searchbar .search_input {
+  padding: 0 10px;
+  caret-color: #333;
+  transition: width 0.4s linear;
+  width: 80%;
+  color: #333;
+  border: 0;
+  outline: 0;
+  background: none;
+  line-height: 33px;
+}
+
+.top-search .searchbar .search_icon {
+  height: 33px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #333;
+  text-decoration: none;
+}
+
+.button-area {
+  padding-top: 30px;
+}
+
+.button-area .btn-add {
+  color: #fff;
+  background-color: #50569e;
+  border-color: #50569e;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: .25rem;
+  padding: 8px 30px;
+  font-weight: 500;
+  font-size: 17px;
+  border: none;
+  box-shadow: none;
+  margin-right: 12px;
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .price-sec h2 {
+    color: #444;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 30px;
+  }
+
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+  .hover-icon {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px #ccc solid;
+    line-height: 18px;
+    padding-left: 7px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .hover-icon .hover-value {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #fff;
+    min-width: 200px;
+    padding: 10px;
+    z-index: 999;
+    border-radius: 8px;
+    visibility: hidden;
+    left: initial;
+  }
+
+  .price-sec h2 {
+    color: #444;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 30px;
+  }
+
+  .top-search .searchbar {
+    height: 45px;
+    background-color: #f6f6f6;
+    padding: 5px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .button-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Form Design Css Start here
+--------------------------------------------------------------*/
+
+.form-sec
+{
+  padding: 50px 0px;
+
+}
+
+.form-sec h2
+{
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+
+}
+
+.form-a label {
+  color: #50569e;
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.form-a .form-control {
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  background: #f5f5f5;
+  border: none;
+  height: 50px;
+  font-weight: 600;
+}
+
+
+.form-a .entry {
+  background-color: #f6f6f6;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.form-a .form-group select {
+  border-radius: 2px;
+  height: 48px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 10px;
+  background: url('../assets/img/dropdown.png') no-repeat;
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  color: #342e37;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.form-check-inline .form-check-input {
+  position: static;
+  margin-top: 0;
+  margin-right: .3125rem;
+  margin-left: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.form-check-label {
+  margin-bottom: 0;
+  font-size: 16px !important;
+  color: #111 !important;
+  padding-right: 30px;
+}
+
+.btn.btn-b {
+  background-color: #f7a739;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 6px 40px;
+  margin-top: 30px;
+}
+
+textarea
+{
+  min-height: 100px;
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 5px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #50569e;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #50569e;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+span.tier
+{
+  float: right;
+  font-size: 18px;
+  font-weight: 500;
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Responsive Css Start here
+--------------------------------------------------------------*/
+
+
+@media (max-width: 768px) {
+
+  .price-sec h2 {
+    color: #444;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+  .hover-icon {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px #ccc solid;
+    line-height: 18px;
+    padding-left: 7px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+  .hover-icon .hover-value {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    right: 0;
+    top: 20px;
+    color: #fff;
+    min-width: 200px;
+    padding: 10px;
+    z-index: 999;
+    border-radius: 8px;
+    visibility: hidden;
+    left: initial;
+}
+
+.price-sec h2 {
+  color: #444;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  font-size: 30px;
+}
+
+.top-search .searchbar {
+  height: 45px;
+  background-color: #f6f6f6;
+  padding: 5px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.button-area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+}
+
+
+//testing super admin header
+
+
+

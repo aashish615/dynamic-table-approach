@@ -1,0 +1,14 @@
+
+<ng-container *ngFor="let iterator of option">
+  <h5>{{iterator.text}}</h5>
+  <div class="entry" *ngIf="iterator.type == 'dropdown'">
+    <div class="form-group">
+      <select class="form-control form-control form-control-lg form-control-a" (change)="onInputChange($event)" [(ngModel)]="iterator.value">
+        <option *ngFor="let opt of iterator.option" [value]="opt.value">{{opt.name}}</option>
+      </select>
+    </div>
+  </div>
+</ng-container>
+
+
+

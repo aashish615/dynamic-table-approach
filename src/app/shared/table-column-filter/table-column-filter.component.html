@@ -1,0 +1,15 @@
+
+  <ng-container *ngFor="let iterator of option">
+    <div class="space-bod"></div>
+    <h4> {{iterator.primaryHeading}}
+      <a *ngIf="iterator.isToastForPrimaryHeader" href="#" data-toggle="tooltip" data-placement="bottom" [title]="iterator.toastForPrimaryHeaderText"
+        class="expla"> <i class="fa fa-exclamation"></i> </a> 
+    </h4>
+    <h5>{{iterator.secondaryHeading}}</h5>
+    <div class="form-group" *ngFor="let opt of iterator.option">
+      <label class="custome-chk ins-txt">{{opt.text}}
+        <input type="checkbox" [name]="opt.name" [value]="opt.value" [(ngModel)]="opt.value" (ngModelChange)="onInputChange($event)">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+  </ng-container>

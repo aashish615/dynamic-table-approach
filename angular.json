@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "commonTableFilter"
+    }
+  },
+  "defaultProject": "commonTableFilter",
+  "cli": {
+    "analytics": "3c4ebca8-ff56-4d3f-b4a3-f3b1330fbf72"
+  }
 }

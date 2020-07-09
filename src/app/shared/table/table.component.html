@@ -1,0 +1,29 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <ng-container  *ngFor="let colName of option">
+        <th *ngIf="colName?.visible">
+          {{colName?.colHeading}}
+        </th>
+      </ng-container>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let rowData of tableData">
+      <ng-container *ngFor="let opt of option">
+         <td *ngIf="opt?.visible">
+           {{rowData[opt.key]}}
+         <ng-container *ngIf="opt.key == 'action'">
+          <ng-container *ngFor="let d of opt.config; let i =index;">
+            <a *ngIf="d.input == 'button'" (click)="actionListener(d,rowData)" class="downicon">
+               <i class="{{d.icon}}" aria-hidden="true"></i>
+              </a>
+          </ng-container>
+        </ng-container>
+      </td>
+      </ng-container>
+
+    </tr>
+  </tbody>
+</table>
+

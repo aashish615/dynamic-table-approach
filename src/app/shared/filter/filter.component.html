@@ -1,0 +1,18 @@
+<div class="lft-filter">
+
+  <ng-container *ngFor="let filter of sideFilterConfiguration">
+
+
+    <!-- TABLE-COLUMN-FILTER : BEGIN -->
+    <app-table-column-filter *ngIf="filter.typeOfFilter=='table-column-filter' && filter.isVisible" [option]="filter.option" (valueChange)="valueChange($event)">
+    </app-table-column-filter>
+    <!-- TABLE-COLUMN-FILETR : END -->
+
+    <!-- TABLE-LIMIT-FILTER : BEGIN -->
+    <app-limit-filter *ngIf="filter.typeOfFilter=='limit-filter' && filter.isVisible" [option]="filter.option" (valueChange)="valueChange($event)"></app-limit-filter>
+    <!-- TABLE-LIMIT-FILTER : END -->
+  </ng-container>
+
+
+
+</div>
